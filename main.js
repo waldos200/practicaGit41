@@ -7,6 +7,7 @@ const request = require('request');
 const axios = require('axios');
 const URL_BASE = 'https://goodreads-devf-aaron.herokuapp.com/api/v1/';
 
+// ----------------------------------Solucion con request---------------------------------------------
 const getAuthorByID = (id) => {
     const URI = 'authors/';
     const ENDPOINT = URL_BASE + URI + id;
@@ -23,6 +24,8 @@ const getAuthorByID = (id) => {
     });
 }
 
+
+// ------------------------------------Solucion con axios----------------------------------------------
 const axiosGetAuthorById = (id) => {
     const URI = 'authors/';
     const ENDPOINT = URL_BASE + URI + id;
