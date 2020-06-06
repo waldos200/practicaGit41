@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/waldos200/practicaGit41/issues"
   },
-  "homepage": "https://github.com/waldos200/practicaGit41#readme"
+  "homepage": "https://github.com/waldos200/practicaGit41#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "request": "^2.88.2"
+  }
 }
