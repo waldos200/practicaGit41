@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/waldos200/practicaGit41#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "request": "^2.88.2"
   }
 }
